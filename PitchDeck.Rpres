@@ -1,0 +1,51 @@
+Shinyapp: Cluster analysis mtcars dataset
+========================================================
+
+<center>author: Faisal sardar<br>
+<small>date: Apr 26, 2015</small></center>
+
+
+Goal
+========================================================
+<br>
+**The goal of this project was to develop an interactive Shinyapp and publish it on shinyapp.io**
+
+<br>
+*The app can be accessed at:*
+
+<https://fsardar.shinyapps.io/Application/>
+
+*Documentation and be accessed at:*
+
+<https://github.com/Fsardar/Getting-Cleaning-Data/blob/master/Readme.md>
+
+
+User Inputs
+========================================================
+The user is required to specify:
+
+- X Variable
+- Y Variable
+- Number of clusters to be generated (Max 5)
+
+
+Shiny App - mtcars clustering
+========================================================
+
+![alt text](ShinyApp.png)
+
+Architecture
+===
+
+- This application as a simple server and ui component in reactive mode
+- It uses the mtcars data set and applies the kmeans algorithm to that dataset
+- It was developed in RStudio and then published to shinyapp.io
+
+
+Data - mtcar
+===
+<small>
+```{r}
+str(mtcars)
+```
+</small>
