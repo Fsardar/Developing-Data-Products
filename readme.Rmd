@@ -1,8 +1,7 @@
 ---
 title: "Documentation - Developing Data Products - Shiny App & Pitch deck"
 author: "Faisal Sardar"
-date: "Sunday, April 26, 2015"
-output: html_document
+output: pdf_document
 ---
 
 <br>
@@ -14,7 +13,7 @@ The shiny app created for this project can be accessed at:
 
 The presentation pitch for this shiny app can be accessed at:
 
-<http://finance.yahoo.com>
+<http://rpubs.com/fsardar/DataProducts>
 
 <br>
 **Shiny App: mtcars k-mean clustering **
@@ -31,8 +30,9 @@ Depending on the inputs the app will cluster the observations into the number of
 
 <br>
 **Summary mtcars data set**
+
 ```{r}
 str(mtcars)
-head(mtcars,3)
-summary(mtcars)
+
+head(mtcars,4)
 ```
