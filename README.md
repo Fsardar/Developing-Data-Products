@@ -14,7 +14,7 @@ The shiny app created for this project can be accessed at:
 
 The presentation pitch for this shiny app can be accessed at:
 
-<http://finance.yahoo.com>
+<http://rpubs.com/fsardar/DataProducts>
 
 <br>
 **Shiny App: mtcars k-mean clustering **
