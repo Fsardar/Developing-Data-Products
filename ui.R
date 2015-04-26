@@ -8,9 +8,18 @@ shinyUI(pageWithSidebar(
                 selected=names(mtcars)[[2]]),
     numericInput('clusters', 'Slelect cluster count (max 5)', 2,
                  min = 1, max = 5),
-    a("Click here for Documentation & readme",href="https://github.com/Fsardar/Getting-Cleaning-Data/blob/master/Readme.md")
-  ),
-  mainPanel(
+    a("Click here for Documentation & readme",href="https://github.com/Fsardar/Developing-Data-Products"),
+    br(),
+    br(),
+    strong(p("Instructions:")),
+    br(),
+    p("Identify pairwise clusters in mtcars dataset"),
+    p("- Select X variable above"),
+    p("- Select Y variable above"),
+    p("- Select number of clusters. You can select from 2-5 clusters"),
+    br()),
+  
+      mainPanel(
     plotOutput('plot1'),
     h4("Summary of generated clusters"),
     verbatimTextOutput("summary")
