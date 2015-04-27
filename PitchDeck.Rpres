@@ -7,17 +7,35 @@ Shinyapp: Cluster analysis mtcars dataset
 
 Goal
 ========================================================
-<br>
-**The goal of this project was to develop an interactive Shinyapp and publish it on shinyapp.io**
 
-<br>
+<u><center>**The goal of this project was to develop an interactive Shinyapp and publish it on shinyapp.io**</center></u>
+
 *The app can be accessed at:*
 
-<https://fsardar.shinyapps.io/Application/>
+<b><a href="https://fsardar.shinyapps.io/Application/", target="_blank">Click here to launch Shinyapp<br> </a></b>
 
 *Documentation and be accessed at:*
 
-<https://github.com/Fsardar/Getting-Cleaning-Data/blob/master/Readme.md>
+<b><a href="https://github.com/Fsardar/Developing-Data-Products/blob/master/README.md", target="_blank">Click here to see Documentation & readme file<br> </a></b>
+
+*Github repo:*
+
+<b><a href="https://github.com/Fsardar/Developing-Data-Products", target="_blank">Access github repository<br> </a></b>
+
+Shiny App - mtcars clustering
+========================================================
+
+![alt text](ShinyApp.png)
+
+
+Data Summary - mtcars
+===
+<small><small><small>
+```{r}
+head(mtcars,1)
+str(mtcars)
+```
+</small></small></small>
 
 
 User Inputs
@@ -29,11 +47,6 @@ The user is required to specify:
 - Number of clusters to be generated (Max 5)
 
 
-Shiny App - mtcars clustering
-========================================================
-
-![alt text](ShinyApp.png)
-
 Architecture
 ===
 
@@ -42,10 +55,3 @@ Architecture
 - It was developed in RStudio and then published to shinyapp.io
 
 
-Data - mtcar
-===
-<small>
-```{r}
-str(mtcars)
-```
-</small>
